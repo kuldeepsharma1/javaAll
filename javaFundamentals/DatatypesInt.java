@@ -7,9 +7,9 @@ public static void main(String[] args) {
     // Datatypes in java are used to store different kind of data into variable
  int num1 = 22; // stores integers 123,-1-2-3..
  int num2 = 34;
- float sum = num1 + num2; // stores decimal point values 
+ int sum = num1 + num2; // stores Sum of 2 numbers
  System.out.println(sum);
-try (// Above i use 2 different types of Datatypes to store values
+try (// Above i use integer types of Datatypes to store values
 // Integers Datatypes :-- byte. short , int, long
 Scanner sc = new Scanner(System.in)) {
     System.out.println("Enter a number and test the variable length ");
